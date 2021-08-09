@@ -1,6 +1,12 @@
-- 👋 Hi, I’m @Alveerah
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
+- 👋 Hi, I’m @Alveerah fetch('/users.html')
+  .then(function(response) {
+    return response.text()
+  }).then(function(body) {
+    document.body.innerHTML = body
+  })
+
+- 👀 I’m interested in 
+- 🌱 I’m currently learning
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
